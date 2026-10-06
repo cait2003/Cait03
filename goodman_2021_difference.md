@@ -9,13 +9,13 @@ The DD estimator encompasses both ‘pre’ and ‘post’ treatment time period
 The papers fix is understanding when TWFEDD is applicable, and when alternative estimators should be applied. 
 
 ## 2. Checks for a reviewer
-A) **If the research includes variation in treatment timing, check if it uses already-treated units as control. **
+A) **If the research includes variation in treatment timing, check if it uses already-treated units as control.**
 
 B) **Check if the author claims to estimate the ATT or the VWATT.** If the author claims to use ATT but the treatment has multiple application periods, the author is estimating the VWATT not the ATT. 
 
-C) **If the research includes already-treated units as control, check if it uses TWFEDD estimator. ** 
+C) **If the research includes already-treated units as control, check if it uses TWFEDD estimator.** 
 
-D) **Look for evidence of dynamic heterogeneity (impact growing/changing over time) ** 
+D) **Look for evidence of dynamic heterogeneity (impact growing/changing over time)** 
 
 E) **Controls** - thought to make a “common trends” assumption more plausible but most are time-varying controls, introduces a ew source of identifying variation that was not there in the unadjusted version.  
 

@@ -1,0 +1,36 @@
+# <DD with variation in treatment timing>
+
+**Contributor:** <카린 Caitlin Manchester>
+
+**Full citation:** <Goodman-Bacon, Andrew. 2021. "Difference-in-Differences with Variation in Treatment Timing." Journal of Econometrics 225 (2): 254–77.>
+
+## 1. Main Claim 
+
+Two-way fixed effects DD estimator is a weighted average of all possible 2x2 DD estimators that compare timing groups to each other. 
+Aim: Show how and why TWFEDD estimator can fail to identify nterpretable treatment effect parameters.
+Suggestion: practitioners should be careful using TWFEDD to estimate causal effects in designs with treatment timing variation.
+Alternative: Use simple flexible estimators to make better use of variation in treatment timing (e.g. Callaway andSant'Anna 2020, Ben-Michael et al 2019 etc). 
+
+## 2. The Issue of Variation in Treatment Timing with DD.
+
+Unlike canonical 2x2 DD, there is limited understanding of the treatment effect parameter in DD regressions, nor how treatment timing affects two-way fixed effects DD (TWFEDD).
+As treatment effects grow over time, timing comparisons can be biased.
+                                                
+
+## 3. DD decomposition 
+
+Shows that TWFEDD estimates a vairance-weighted average of treatment effect parameters sometimes with negative weights. 
+Theorem 1: describes the sources of identifying variation in a TWFEDD estimator and their importance. Implies that changing the number or spacing of time periods changes the weights, and shows how DD compares two treated groups. The weight assigned is derived from how large the subsample and treatment variance is.                                                         
+Note: Theorem 1 is not the only way to decompose TWFEDD estimator, but yields clear definitions for weights and connects to OLS estimation method features.
+                                                                                                 
+## 4. DD decomposition to define "common trends" when interested in using TWFEDD to identify variance-weighted treatment effect parameter.
+
+DD identifies positively weighted average of ATTs on the treated (VWATT) across treatment groups and post-periods in the 2x2 DDs. It requires common trends, and treatment effects reaining constant over time if already-treated groups are used as controls. 
+If treatment effects change, it may bias TWFEDD away from VWATT. If treatment effects are constant over time but vary across units, DD identifies the VWATT as $$\Delta\text{ATT} = 0$$.  
+Author notes that all timing groups are controls in some terms, but earliest/latest units get more weight as control than treatment.    
+
+## 5. Examples
+Stevenson and Wolfers' (2006) analysis of no-fault divorce reforms and female suicide. Author finds bias resulting from time-varying effects. Comparison of later to earlier treated states accounts for bias in the overall DD estimate.                                                                                             
+## 6. Author-developed tools to describe TWFEDD estimator and evaluate why estimates change across specifications. 
+
+## 7. Methodological Integrity Check

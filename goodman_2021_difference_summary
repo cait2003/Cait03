@@ -30,7 +30,12 @@ If treatment effects change, it may bias TWFEDD away from VWATT. If treatment ef
 Author notes that all timing groups are controls in some terms, but earliest/latest units get more weight as control than treatment.    
 
 ## 5. Examples
-Stevenson and Wolfers' (2006) analysis of no-fault divorce reforms and female suicide. Author finds bias resulting from time-varying effects. Comparison of later to earlier treated states accounts for bias in the overall DD estimate.                                                                                             
-## 6. Author-developed tools to describe TWFEDD estimator and evaluate why estimates change across specifications. 
+Stevenson and Wolfers' (2006) analysis of no-fault divorce reforms and female suicide. Author finds bias resulting from time-varying effects. Comparison of later to earlier treated states accounts for bias in the overall DD estimate.                                                                 
 
-## 7. Methodological Integrity Check
+## 6. Alternative Specifications 
+Different specifications alter 2x2 DD estimates, weights or both, thus changing TWFE estimates too. Specifications include weighting and controls for covariants. unit-specific linear time trends, region-by-year fixed effects
+
+
+## 7. Author-developed tools to describe TWFEDD estimator and evaluate why estimates change across specifications. 
+
+## 8. Methodological Integrity Check

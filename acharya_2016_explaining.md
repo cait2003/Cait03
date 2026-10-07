@@ -6,6 +6,8 @@
 
 ## 1. What the paper establishes
 
+The authors exert that bias in establishing causal relationships due to conditioning on post-treatment variables can be avoided by focusing on the controlled direct effect. This allows researchers to eliminate competing explanations whilst avoiding serious bias. 
+
 ## 2. Checks for a reviewer
 
 ## 3. Evidence

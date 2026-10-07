@@ -34,5 +34,11 @@ E) “When treatment effects are correlated with post-period changes in the cova
 ## 4. Scope
 
 ## 5. What failure looks like
+Has variation in treatment time
+uses already treated units as controls 
+Does not address bias/contamination
+Says estimates ATT but TWFE estimator is actually producing VWATT
 
 ## 6. Test cases
+Card & Krueger (1994) April 1992 New Jersey
+Assessing the impact of public–private partnership adoption on regional economic growth in Asia, (Lutfah Ariana, Rimawan Pradiptyo, Evi Noor Afifah)

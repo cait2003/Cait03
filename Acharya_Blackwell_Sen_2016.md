@@ -1,6 +1,6 @@
 # Causal Findings Without Bias
 
-**Contributor:** 카린 | Caitlin Manchester
+**Contributor:** Caitlin Manchester
 
 **Full citation:** Acharya, Avidit, Matthew Blackwell, and Maya Sen. 2016. "Explaining Causal Findings Without Bias: Detecting and Assessing Direct Effects." American Political Science Review 110 (3): 512–29.
 
